@@ -4,7 +4,6 @@ Trabalho final da disciplina de SWII.
 
 ### Captura de tela da aplicação
 #### Windows Form
-(windowsForm.gif)
+![](windowsForm.gif)
 #### Web
-(web.gif)
-
+![](webTPFinal.gif)
