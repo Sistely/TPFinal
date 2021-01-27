@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XLyYycvX1pXmML431JeVPX2saE1d/fSCrdBgdluSZjP/THaEIlAnWnkTGKWUTXzOxmg99uUTNGVeWOR1vMR7Og==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kimochii\\source\\repos\\Web_TP_Final\\Web_TP_Final.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kimochii\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

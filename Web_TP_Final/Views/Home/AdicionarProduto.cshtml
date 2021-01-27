@@ -1,0 +1,30 @@
+﻿@model Produto
+@{ Layout = "_Layout"; ViewBag.Title = "Adicionar um Produto";}
+
+<h3>Adicionar um Produto <a asp-action="Index" class="btn btn-sm btn-success">Voltar</a></h3>
+<form asp-action="AdicionarProduto" method="post">
+
+    <div class="form-group col-md-6">
+        <label for="Nome">Nome:</label>
+        <input class="form-control" name="Nome" />
+    </div>
+    <div class="form-group col-md-6">
+        <label for="Preco">Preço:</label>
+        <input class="form-control" name="Preco" />
+    </div>
+
+
+    <div class="form-group col-md-6">
+        <label for="IdUsuarioCadastro">Id Usuario:</label>
+        <input class="form-control" name="IdUsuarioCadastro" />
+    </div>
+    <div class="form-group col-md-6">
+        <label for="Status">Status:</label>
+        <input type="hidden" name="Status" value="0" />
+        <input type="checkbox" name="Status" value="1" />
+    </div>
+
+    <div class="text-center panel-body">
+        <button style="float:left" type="submit" class="btn btn-sm btn-success">Adicionar</button>
+    </div>
+</form>
